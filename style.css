@@ -1,3 +1,4 @@
+
 .nav{
     height: 20px;
     }
@@ -7,7 +8,6 @@
    width: 200px;
    margin-left: 10px;
 }
-
 .navbar{
     display: flex;
     justify-content: center;
@@ -116,13 +116,17 @@ padding: 50px;
     height: 300px;
     width: 300px;
     border-radius: 15px;
-    padding: 15px;
+    padding: 10px;
     margin-right: 10px;
 }
 .patients p{
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 200;
-    margin-top: 25px;
+    margin-top: 15px;
+}
+.patients h2{
+    font-size: 25px;
+    margin-top: 5px;
 }
 .patients-img{
     color: white;
@@ -134,13 +138,15 @@ padding: 50px;
     height:300px;
     width: 300px;
     border-radius: 15px;
-    padding: 15px;
+    padding: 10px;
 }
-
-.doctors p{
+.doctors h2{
     font-size: 25px;
+}
+.doctors p{
+    font-size: 20px;
     font-weight: 200;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 .doctors-img{
@@ -158,12 +164,552 @@ padding: 50px;
 }
 
 .clinic p{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 200;
-    margin-top: 25px;
+    margin-top: 5px;
 }
 
 .Clinic-img{
     color: white;
     width: 30px;
+}
+
+.logo-content{
+    display: flex;
+    align-items: center;
+justify-content: space-evenly;
+margin-bottom: 20px;
+}
+
+.logo-content p{
+ text-align: center;
+ color:#00bfa5;
+ font-size: 30px;
+ font-weight: 100;
+ width: 300px;
+ margin-top: 20px;
+}
+
+.logos{
+fill: #ababab;
+   flex-wrap: wrap;
+   line-height: 30px;
+   width: 550px;
+   font-size: 150px;
+   align-items: center;
+   justify-content: space-evenly;
+   margin-bottom: 10px;
+}
+
+.znanylekarz{
+    width: 90px;
+   
+}
+
+.doctoralia{
+    width: 90px;
+}
+
+.miodottore{
+    width: 90px;
+}
+
+.doktortakvimi{
+    width: 90px;
+}
+
+.znamylekar{
+    width: 90px;
+}
+
+.tuotempo{
+    width: 90px;
+}
+
+.gipo{
+    width: 50px;
+}
+
+.clinicloud{
+    width: 50px;
+}
+
+.jameda{
+    width: 70px;
+}
+
+.hc-platform{
+    position: relative;
+    display: inline-block;
+    background-color: #dbf7f6;
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+}
+.world-txt h2{
+font-size: 40px;
+font-weight: 200;
+color: #01c3a5;
+text-align: left;
+margin-left: 50px;
+width: 550px;
+}
+
+.world-txt p{
+    font-size: 15px;
+    font-weight: 300;
+    color: #ababab;
+    justify-content: center;
+    margin-left: 50px;
+    text-align: left;
+    width: 550px;
+}
+.hc-img{
+    position: relative;
+    width: 400px;
+    margin-bottom: -65em;
+    justify-content: center;
+    align-items: end;
+}
+
+.platforms{
+    display: flex;
+  align-items: center;
+  float: right;
+  margin-right: -50px;
+  margin-top: 10px;
+}
+
+.leader{
+    background-color: white;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    word-wrap: break-word;
+    border-radius: 10px;
+}
+
+.leader img{
+ width: 30px;   
+}
+
+.leader h2{
+    font-size: 25px;
+    font-weight: 200;
+    color: #01c3a5;
+}
+.leader p{
+    font-size: 12px;
+    color: #ababab;
+}
+
+.patient{
+    background-color: white;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.patient h2{
+    font-size: 25px;
+    font-weight: 200;
+    color: #01c3a5;
+}
+
+.patient p{
+    font-size: 12px;
+    color: #ababab;
+}
+
+.appointments{
+    background-color: white;
+    text-align: center;
+    width: 300px;  
+    height: 200px;
+    border-radius: 10px; 
+    padding: 20px; 
+}
+.appointments h2{
+    font-size: 25px;
+    font-weight: 200;
+    color: #01c3a5;
+}
+.appointments p{
+    font-size: 12px;
+    color: #ababab;
+}
+
+.active-doctors{
+    background-color: white;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.active-doctors h2{
+    font-size: 25px;
+    font-weight: 200;
+    color: #01c3a5;
+}
+.active-doctors p{
+    font-size: 12px;
+    color: #ababab;
+}
+
+.plat1{
+    position: relative;
+    flex-direction: column;
+    margin-right: 15px;
+    display: grid;
+}
+
+.plat2{
+    position: relative;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-top: -40px;
+}
+.class-txt{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 200;
+    line-height: 30px;
+    color: #ababab;
+    width: 70%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.class-txt h2{
+font-weight: 200;
+color: #01c3a5;
+line-height: 35px;
+}
+
+.class-txt p{
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 300;
+}
+.city{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.warsaw{
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 120px;
+    align-items: center;
+    justify-content: center;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.warsaw img{
+    width: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius:15px;
+}
+
+.warsaw-content{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.warsaw button{
+    background-color: #3d83df;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 10px;
+    padding: 10px;
+    width: 110px;
+    margin-top: 10px;
+}
+.warsaw p{
+    color: #ababab;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.barcelona{
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 120px;
+    align-items: center;
+    justify-content: center;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.barcelona img{
+    width: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius:15px;
+}
+
+.barcelona-content{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.barcelona button{
+    background-color: #3d83df;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 10px;
+    padding: 10px;
+    width: 110px;
+    margin-top: 10px;
+}
+.barcelona p{
+    color: #ababab;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.munich{
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 120px;
+    align-items: center;
+    justify-content: center;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.munich img{
+    width: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius:15px;
+}
+
+.munich-content{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.munich button{
+    background-color: #3d83df;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 10px;
+    padding: 10px;
+    width: 110px;
+    margin-top: 10px;
+}
+.munich p{
+    color: #ababab;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.instabul{
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 120px;
+    align-items: center;
+    justify-content: center;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.instabul img{
+    width: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius:15px;
+}
+
+.instabul-content{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.instabul button{
+    background-color: #3d83df;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 10px;
+    padding: 10px;
+    width: 110px;
+    margin-top: 10px;
+}
+.instabul p{
+    color: #ababab;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.rome{
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 120px;
+    align-items: center;
+    justify-content: center;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.rome img{
+    width: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius:15px;
+}
+
+.rome-content{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.rome button{
+    background-color: #3d83df;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 10px;
+    padding: 10px;
+    width: 110px;
+    margin-top: 10px;
+}
+.rome p{
+    color: #ababab;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.bologna{
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 120px;
+    align-items: center;
+    justify-content: center;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bologna img{
+    width: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius:15px;
+}
+
+.bologna-content{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.bologna button{
+    background-color: #3d83df;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 10px;
+    padding: 10px;
+    width: 110px;
+    margin-top: 10px;
+}
+.bologna p{
+    color: #ababab;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.curitiba{
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 120px;
+    align-items: center;
+    justify-content: center;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.curitiba img{
+    width: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius:15px;
+}
+
+.curitiba-content{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.curitiba button{
+    background-color: #3d83df;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 10px;
+    padding: 10px;
+    width: 110px;
+    margin-top: 10px;
+}
+.curitiba p{
+    color: #ababab;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.mexico{
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 120px;
+    align-items: center;
+    justify-content: center;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mexico img{
+    width: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius:15px;
+}
+
+.mexico-content{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.mexico button{
+    background-color: #3d83df;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 10px;
+    padding: 10px;
+    width: 110px;
+    margin-top: 10px;
+}
+.mexico p{
+    color: #ababab;
+    margin-top: 20px;
+    font-size: 20px;
 }
