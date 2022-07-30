@@ -400,7 +400,11 @@ line-height: 35px;
 }
 .city{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    width: 97.5%;
+   
+  
 }
 
 .warsaw{
@@ -712,4 +716,54 @@ justify-content: space-evenly;
     color: #ababab;
     margin-top: 20px;
     font-size: 20px;
+}
+.last-par{
+    margin-top: 80px;
+}
+.last-par h2{
+   
+    font-weight:200;
+    font-size: 35px;
+    text-align: center;
+}
+.last-par button{
+    text-align: center;
+    border: none;
+    background-color: #3d83df;
+    color: whitesmoke;
+   font-size: 11px;
+   font-weight: bolder;
+   padding: 13px;
+   border-radius: 5px;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+.footer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    margin-top: 100px;
+    text-align: center;
+    border-top: #ababab  0.3px solid;
+}
+.footer h3{
+    color: #ababab;
+    margin-top: 30px;
+    font-size: 10px;
+}
+.footer h2{
+margin-top: 20px;
+    font-size: 10px;
+    color: #ababab;
+}
+.footer p{
+    color: #ababab;
+    font-size: 10px;
+}
+.footer-cities{
+    color: #3d83df;
 }
